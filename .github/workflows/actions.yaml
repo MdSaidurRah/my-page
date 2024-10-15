@@ -38,7 +38,7 @@ jobs:
     # - name: Run test suite
     #   run: composer run-script test
 
-with:
+
 server: ftp.eduinntech.com
 username: ${{ secrets.FTP_USERNAME }}
 password: ${{ secrets.FTP_PASSWORD }}
