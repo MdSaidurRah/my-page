@@ -39,7 +39,7 @@ jobs:
     #   run: composer run-script test
 
 
-server: ftp.eduinntech.com
-username: ${{ secrets.FTP_USERNAME }}
-password: ${{ secrets.FTP_PASSWORD }}
-server-dir: /home/eduinntech/my-page
+    server: ftp.eduinntech.com
+    username: ${{ secrets.FTP_USERNAME }}
+    password: ${{ secrets.FTP_PASSWORD }}
+    server-dir: /home/eduinntech/my-page
